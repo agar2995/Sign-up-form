@@ -1,0 +1,92 @@
+.circle-container li {
+	display: block;
+	position: absolute;
+	top: 50%; left: 50%;
+	width: 13em; height: 13em;
+	margin: -6.5em; /* 2em = 4em/2 */ /* half the width */
+}
+
+.circle-container div {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 50%; left: 50%;
+	width: 15em; height: 15em;
+	margin: -7.5em; /* 2em = 4em/2 */ /* half the width */
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+}
+
+.anim{
+    -webkit-transform:translateY(-200px);
+}
+
+.circle-container img { display: block; width: 100%;
+height: auto;}
+.deg0 { 
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: translate(20em); }
+
+.deg45 { 
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: rotate(45deg) translate(20em) rotate(-45deg); }
+
+.deg135 {  
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: rotate(135deg) translate(20em) rotate(-135deg); }
+
+.deg180 { 
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: translate(-20em); }
+
+.deg225 {  
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: rotate(225deg) translate(20em) rotate(-225deg); }
+
+.deg315 {  
+    border-color: skyblue;
+    border-style: dashed;
+    border-radius: 50%;
+    transform: rotate(315deg) translate(20em) rotate(-315deg); }
+
+.circle-container p{
+    padding: 10% 25% 25% 25%;
+    font-size: 25px;
+}
+
+.circle-container .one{
+    margin: -90px 0 0 55px;
+}
+
+.circle-container .two{
+    margin: -50px 0 0 65px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.about a{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.btn-primary, .btn-success{
+    width: 700px;
+    height: 50px;
+}
+
+
+
+
+
