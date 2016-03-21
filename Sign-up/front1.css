@@ -1,0 +1,72 @@
+@keyframes zoomIn {
+  from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+      opacity: 1;
+  }
+}
+
+.zoomIn {
+    -webkit-animation: zoomIn 5s;
+    animation: zoomIn 5s;
+    font-family:cursive; 
+}
+
+.div1{
+    text-align: center;
+    
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+    -webkit-animation: fadeInUp 5s;
+    animation: fadeInUp 5s;
+        
+}
+
+.div2{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.div2 a{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.btn-primary, .btn-success{
+    width: 700px;
+    height: 50px;
+}
